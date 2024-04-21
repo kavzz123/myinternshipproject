@@ -1,0 +1,114 @@
+/* Additions for task editing */
+li input[type="text"] {
+    width: 70%;
+    margin-right: 10px;
+}
+
+/* Styling for deadlines */
+.task-deadline {
+    font-size: 12px;
+    color: #b7b9d4;
+}
+
+/* Styling for priorities */
+.task-priority {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* More sophisticated styling */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #0d0b87;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(70, 4, 55, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #236ed75e;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #829eec;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #0547ed;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.completed {
+    background-color: #c6e5e8;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.delete-btn {
+    cursor: pointer;
+    color: #cc3333;
+    font-size: 18px;
+}
+
+.edit-btn {
+    cursor: pointer;
+    color: #6699cc;
+    font-size: 18px;
+}
+
+.priority-high {
+    color: #cc3333;
+}
+
+.priority-medium {
+    color: #6699cc;
+}
+
+.priority-low {
+    color: #33cc33;
+}
+/* CSS for buttons */
+.button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Styling for mark button */
+.mark-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Styling for edit button */
+.edit-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Styling for delete button */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
